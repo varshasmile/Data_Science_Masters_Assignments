@@ -1,0 +1,59 @@
+2023-06-16 11:03:18,496 root INFO Question No. 2: 
+2023-06-16 11:03:18,497 root INFO In this example, we attempt to divide two numbers a and b without Exception Handling.
+2023-06-16 11:03:18,497 root INFO we attempt to divide two numbers 10 and 0. If b is 0, a ZeroDivisionError exception is raised and program terminates abruptly , rest of program is not excecuted.
+2023-06-16 11:03:22,092 root INFO Question No. 3: 
+2023-06-16 11:03:22,093 root INFO In this example, within the try block, we have the code that may raise an exception.
+2023-06-16 11:03:22,093 root INFO We are inside TRY block where we try to divide n 10 by 0
+2023-06-16 11:03:22,093 root INFO We attempt to divide num1 by num2, and since num2 is 0, a ZeroDivisionError exception will be raised.
+2023-06-16 11:03:22,093 root INFO Inside the except block, we handle the specific ZeroDivisionError exception
+2023-06-16 11:03:22,093 root ERROR Exception occurred: division by zero
+2023-06-16 11:03:22,093 root ERROR Cannot divide by zero
+2023-06-16 11:03:22,093 root ERROR Division operation failed
+2023-06-16 11:03:22,093 root INFO Inside the Finally block that always executes, regardless of whether an exception occurred or not
+2023-06-16 11:03:22,093 root INFO End of the program
+2023-06-16 11:03:26,428 root INFO Question No. 4: 
+2023-06-16 11:03:26,429 root INFO Inside try block, trying to divide 10 by 5.
+2023-06-16 11:03:26,429 root INFO The result is: 2.0
+2023-06-16 11:03:26,429 root INFO the division operation within the try block does not raise an exception because num2 is not zero.
+2023-06-16 11:03:26,429 root INFO Inside the else block, is executed because of successful division operation of try block.
+2023-06-16 11:03:26,429 root INFO No exception occurred
+2023-06-16 11:03:26,429 root INFO The division was successful
+2023-06-16 11:03:26,429 root INFO Inside Finally block, Regardless of whether an exception occurs or not, finally block is executed.
+2023-06-16 11:03:26,429 root INFO End of the program
+2023-06-16 11:03:29,012 root INFO Inside try block to check the validity of age
+2023-06-16 11:03:29,013 root INFO we check the age is negative. We manually raise a ValueError with a custom error message using the raise statement
+2023-06-16 11:03:29,013 root INFO Inside the except block, catches the raised exception and logs the error details.
+2023-06-16 11:03:29,013 root ERROR Exception occurred: Invalid age
+2023-06-16 11:03:29,013 root ERROR Invalid age value
+2023-06-16 11:03:33,158 root INFO Question No. 5: 
+2023-06-16 11:03:33,159 root INFO Inside validateAge class, defined as a subclass of the built-in Exception class.
+2023-06-16 11:03:33,159 root INFO Inside try block to input age and validate it using age_validation function.
+2023-06-16 11:03:36,444 root INFO Inside age_validation function, takes age as input and performs the validation checks. -9
+2023-06-16 11:03:36,444 root INFO Inside if block to check if the age is less than 0, we raise a validateAge exception -9
+2023-06-16 11:03:36,444 root INFO Inside except block, Exception of type validateAge is raised, the except block is executed.
+2023-06-16 11:03:36,444 root INFO Age cannot be negative
+2023-06-16 11:03:38,479 root INFO Question No. 5: 
+2023-06-16 11:03:38,480 root INFO Inside validateAge class, defined as a subclass of the built-in Exception class.
+2023-06-16 11:03:38,480 root INFO Inside try block to input age and validate it using age_validation function.
+2023-06-16 11:03:40,769 root INFO Inside age_validation function, takes age as input and performs the validation checks. 55
+2023-06-16 11:03:40,769 root INFO Inside else block to validate given the age as valid 55
+2023-06-16 11:03:40,769 root INFO Entered age 55 is valid
+2023-06-16 11:03:41,828 root INFO Question No. 5: 
+2023-06-16 11:03:41,829 root INFO Inside validateAge class, defined as a subclass of the built-in Exception class.
+2023-06-16 11:03:41,829 root INFO Inside try block to input age and validate it using age_validation function.
+2023-06-16 11:03:51,760 root INFO Inside age_validation function, takes age as input and performs the validation checks. 390
+2023-06-16 11:03:51,760 root INFO Inside elif block to check if the age is greater than 200, we raise a validateAge exception 390
+2023-06-16 11:03:51,760 root INFO Inside except block, Exception of type validateAge is raised, the except block is executed.
+2023-06-16 11:03:51,760 root INFO Age entered is very high
+2023-06-16 11:03:56,125 root INFO Question No. 6: 
+2023-06-16 11:03:56,125 root INFO Custom exception class called InvalidInputError that is raised when the input number for calculating the square root is negative.
+2023-06-16 11:03:56,126 root INFO Inside InvalidInputError class, subclass of the built-in Exception class.
+2023-06-16 11:03:56,126 root INFO calculate_square_root function takes a number as input and attempts to calculate the square root: 25
+2023-06-16 11:03:56,126 root INFO Inside try block trying to calculate the sq root of given no.
+2023-06-16 11:03:56,126 root INFO The square root of 25 is: 5.0
+2023-06-16 11:03:56,126 root INFO calculate_square_root function takes a number as input and attempts to calculate the square root: -16
+2023-06-16 11:03:56,126 root INFO Inside try block trying to calculate the sq root of given no.
+2023-06-16 11:03:56,126 root INFO we check if the number is less than 0. We raise an InvalidInputError by creating an instance of the custom exception class and passing an error message.
+2023-06-16 11:03:56,126 root INFO Inside the except block, we catch the InvalidInputError
+2023-06-16 11:03:56,126 root ERROR InvalidInputError occurred: Input number cannot be negative
+2023-06-16 11:03:56,127 root ERROR Invalid input detected: -16
