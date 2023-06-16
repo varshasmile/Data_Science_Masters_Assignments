@@ -1,0 +1,35 @@
+2023-06-16 16:44:24,357 root INFO Question No. 3: 
+2023-06-16 16:44:24,360 root INFO Defining a function to calculate the square of a number
+2023-06-16 16:44:24,360 root INFO we create a multiprocessing.Process object and pass the square function as the target and argument num as a tuple using the args parameter
+2023-06-16 16:44:24,361 root INFO we start the process using m.start() and wait for it to finish using m.join()
+2023-06-16 16:44:24,365 root INFO The square of 5 is 25
+2023-06-16 16:44:28,548 root INFO Question No. 5: 
+2023-06-16 16:44:28,548 root INFO Defining a function sq_root to calculate sq root of list of numbers.
+2023-06-16 16:44:28,548 root INFO creating a Pool object with 3 processes
+2023-06-16 16:44:28,563 root INFO Submit function sq_root to the pool
+2023-06-16 16:44:28,565 root INFO Final Results: [2.0, 3.0, 4.0, 5.0, 6.0]
+2023-06-16 16:44:28,565 root INFO Close the pool and wait for all processes to finish
+2023-06-16 16:44:29,639 root INFO Question No. 6: 
+2023-06-16 16:44:29,639 root INFO Defining a function print_num to print a number.
+2023-06-16 16:44:29,639 root INFO define a list of 4 numbers that we want each process to print.
+2023-06-16 16:44:29,639 root INFO create an empty list (processes) to store the Process objects for each process.
+2023-06-16 16:44:29,640 root INFO Inside for loop, specifying the target function (print_number) and passing the current number 1 as an argument.
+2023-06-16 16:44:29,640 root INFO created process <Process name='Process-5' parent=1630 initial> is appended to the processes list.
+2023-06-16 16:44:29,640 root INFO using the start method, initiates the execution in separate process
+2023-06-16 16:44:29,642 root INFO Inside for loop, specifying the target function (print_number) and passing the current number 2 as an argument.
+2023-06-16 16:44:29,643 root INFO created process <Process name='Process-6' parent=1630 initial> is appended to the processes list.
+2023-06-16 16:44:29,643 root INFO using the start method, initiates the execution in separate process
+2023-06-16 16:44:29,644 root INFO The number is 1
+2023-06-16 16:44:29,648 root INFO Inside for loop, specifying the target function (print_number) and passing the current number 3 as an argument.
+2023-06-16 16:44:29,648 root INFO created process <Process name='Process-7' parent=1630 initial> is appended to the processes list.
+2023-06-16 16:44:29,648 root INFO using the start method, initiates the execution in separate process
+2023-06-16 16:44:29,649 root INFO The number is 2
+2023-06-16 16:44:29,652 root INFO Inside for loop, specifying the target function (print_number) and passing the current number 4 as an argument.
+2023-06-16 16:44:29,653 root INFO created process <Process name='Process-8' parent=1630 initial> is appended to the processes list.
+2023-06-16 16:44:29,653 root INFO using the start method, initiates the execution in separate process
+2023-06-16 16:44:29,654 root INFO The number is 3
+2023-06-16 16:44:29,656 root INFO Inside for loop, iterate over the processes list and call the join <Process name='Process-5' pid=1660 parent=1630 stopped exitcode=0>
+2023-06-16 16:44:29,657 root INFO Inside for loop, iterate over the processes list and call the join <Process name='Process-6' pid=1661 parent=1630 stopped exitcode=0>
+2023-06-16 16:44:29,657 root INFO Inside for loop, iterate over the processes list and call the join <Process name='Process-7' pid=1662 parent=1630 stopped exitcode=0>
+2023-06-16 16:44:29,657 root INFO Inside for loop, iterate over the processes list and call the join <Process name='Process-8' pid=1663 parent=1630 started>
+2023-06-16 16:44:29,658 root INFO The number is 4
